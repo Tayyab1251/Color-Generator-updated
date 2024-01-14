@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+#container{
+    width: 50%;
+    height: 380px;
+    margin: 0 auto;
+    background-image: url(InShot_20230825_140322004.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    /* border: 2px solid black; */
+    border-radius: 10px 10px;
+
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.appName{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+}
+#color-code-section{
+    text-align: center;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 10px 10px;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    padding: 10px 25px 10px 25px;
+}
+button{    
+    border: none;
+    border-radius: 15px 15px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight:bold;
+    padding: 10px 15px 10px 15px;
+    width: 100%;
+    background-color: rgb(129, 119, 214);
+}
+button:hover{
+    transition: 0.4s;
+    background-color: rgb(31, 21, 116);
+    color: white;
+}
+#call-to-action{
+    margin-bottom: 10px;
+
+}
+span{
+    font-size: 1.4rem;
+    color: rgba(255, 0, 0, 0.87);
+}
+footer{
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+.appName{
+    font-size: 1.2rem;
+}
+#container{
+    margin-top: 7rem;
+    width: 80%;
+
+} 
+body{
+    transition: 0.5s;
+}
+}
